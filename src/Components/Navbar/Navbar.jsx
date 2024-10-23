@@ -1,12 +1,13 @@
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <nav>
             <ul>
-                <li>Home</li>
+                <li><Link to="/">Home</Link></li>
                 <li>shop</li>
-                <li>Cart</li> {/* State-driven counter */}
+                <li><Link to="/Cart">Cart</Link></li> {/* State-driven counter */}
                 <li>Profile</li>
             </ul>
         </nav>
