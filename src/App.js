@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import ProductGrid from './Components/ProductGrid/ProductGrid';
+import StickyCart from './Components/StickyCart/StickyCart'
 
 function App() {
   const products = [
@@ -13,6 +14,7 @@ function App() {
     <div className="E-commerce">
      <Navbar> </Navbar>
      <ProductGrid products={products}></ProductGrid>
+     <StickyCart></StickyCart>
     </div>
   );
 }

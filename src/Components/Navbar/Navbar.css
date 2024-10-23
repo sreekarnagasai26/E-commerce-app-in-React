@@ -1,0 +1,27 @@
+/* Styling the nav element */
+nav {
+    background-color: rgb(255, 81, 0);
+    padding: 1rem;
+  }
+  
+  /* Styling the unordered list inside the nav */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling the list items */
+  nav li {
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  /* Adding hover effect */
+  nav li:hover {
+    color: black; /* Tomato color */
+  }
